@@ -19,3 +19,7 @@ This plugin will auto disable all game objects which be listed in `BepInEx/objec
 #### Auto enable game object
 This plugin will auto enable all game objects which be listed in `BepInEx/objects/enabled.txt`
 You can use the `?:` for conditional enable game objects like `/CH001/CH001?:/CH001/CH001/test`, it will enable `/CH001/CH001/test` when `/CH001/CH001` is enabled
+
+## Texture replacer
+This plugin can replace texture which be listed in `BepInEx/images/`
+You can use `Alt+F11` to dump texture, modify it, and put into `BepInEx/images/`, this plugin will replace the original texture by it
